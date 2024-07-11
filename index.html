@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Memory Game</title>
+  <!-- Link to the external CSS file -->
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <!-- Main heading for the game -->
+  <h1 style="color: aliceblue;">Pokemon Memory Game</h1>
+  
+  <!-- Game container -->
+  <div class="game" style="margin: 20px 0;">
+    <!-- Each card with front and back sides -->
+    <div class="card" data-image="./assets/pokemon1.png">
+      <div class="front"></div>
+      <div class="back"></div>
+    </div>
+    <div class="card" data-image="./assets/pokemon1.png">
+      <div class="front"></div>
+      <div class="back"></div>
+    </div>
+    <div class="card" data-image="./assets/pokemon2.png">
+      <div class="front"></div>
+      <div class="back"></div>
+    </div>
+    <div class="card" data-image="./assets/pokemon2.png">
+      <div class="front"></div>
+      <div class="back"></div>
+    </div>
+    <div class="card" data-image="./assets/pokemon3.png">
+      <div class="front"></div>
+      <div class="back"></div>
+    </div>
+    <div class="card" data-image="./assets/pokemon3.png">
+      <div class="front"></div>
+      <div class="back"></div>
+    </div>
+    <div class="card" data-image="./assets/pokemon4.png">
+      <div class="front"></div>
+      <div class="back"></div>
+    </div>
+    <div class="card" data-image="./assets/pokemon4.png">
+      <div class="front"></div>
+      <div class="back"></div>
+    </div>
+    <div class="card" data-image="./assets/pokemon5.png">
+      <div class="front"></div>
+      <div class="back"></div>
+    </div>
+    <div class="card" data-image="./assets/pokemon5.png">
+      <div class="front"></div>
+      <div class="back"></div>
+    </div>
+    <div class="card" data-image="./assets/pokemon6.png">
+      <div class="front"></div>
+      <div class="back"></div>
+    </div>
+    <div class="card" data-image="./assets/pokemon6.png">
+      <div class="front"></div>
+      <div class="back"></div>
+    </div>
+  </div>
+  <!-- Display number of attempts -->
+  <div id="attempts" style="color: aliceblue; font-size: xx-large;">Attempts: 0</div>
+  <!-- Display win message when game is completed -->
+  <div id="winMessage" style="display: none; color: aliceblue; font-size: x-large;">
+    You won in <span id="attemptCount"></span> attempts!
+  </div>
+  <!-- Button to reset the game -->
+  <div>
+    <button id="resetButton">Reset Game</button>
+  </div>
+  <!-- Link to the external JavaScript file -->
+  <script src="./index.js"></script>
+</body>
+</html>
